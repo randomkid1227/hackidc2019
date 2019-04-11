@@ -78,7 +78,7 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'hackidc',
-        'HOST': 'hackidc-db.cgfa5y2n7yde.eu-central-1.rds.amazonaws.com',
+        'HOST': 'hackidcdb.cgfa5y2n7yde.eu-central-1.rds.amazonaws.com',
         'PORT': '3306',
         'USER': 'admin',
         'PASSWORD': 'HackIDCAdmin',
