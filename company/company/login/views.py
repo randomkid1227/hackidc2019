@@ -17,8 +17,7 @@ class Login(View):
         if user is not None:
             auth_login(request, user)
             if user.groups.filter(name='Company').exists():
-                # TODO: Redirect to company dashboard
-                pass
+                return redirect('/CreateSession/')
             elif user.groups.filter(name='Customer').exists():
                 return redirect('/CustomerDashboard')
         else:
