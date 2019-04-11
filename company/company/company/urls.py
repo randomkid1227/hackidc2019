@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.conf.urls import url, include
 
 urlpatterns = [
+    url('', include('pwa.urls')),  # You MUST use an empty string as the URL prefix
     url(r'^admin/', admin.site.urls),
     url(r'^login', include('login.urls')),
     url(r'^CustomerDashboard', include('customer_dashboard.urls')),

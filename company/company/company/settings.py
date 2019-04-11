@@ -25,12 +25,13 @@ SECRET_KEY = 'h+bs(prl4=_o9^fg9!gc#oidoktpq1&b4z^6u^i1682qe7&k9-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['localhost', '192.168.43.103']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'pwa',
     'login',
     'customer_dashboard',
     'company_session',
@@ -42,6 +43,19 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+]
+
+PWA_APP_NAME = 'IDefender'
+PWA_APP_DESCRIPTION = "Secured Transactions"
+PWA_APP_THEME_COLOR = '#0A0302'
+PWA_APP_BACKGROUND_COLOR = '#ffffff'
+PWA_APP_DISPLAY = 'standalone'
+PWA_APP_START_URL = '/login'
+PWA_APP_ICONS = [
+    {
+        'src': '/static/images/my_app_icon.png',
+        'sizes': '160x160'
+    }
 ]
 
 MIDDLEWARE_CLASSES = [
