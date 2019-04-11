@@ -20,5 +20,8 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^login', include('login.urls')),
     url(r'^CustomerDashboard', include('customer_dashboard.urls')),
+    url(r'^CompanySession', include('company_session.urls')),
+    url(r'^CompanySessionConfirmed', include('company_session_confirmed.urls')),
+    url(r'^CreateSession', include('company_create_session.urls')),
 
 ]

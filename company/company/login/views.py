@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.views.generic import View
 from django.contrib.auth import login as auth_login
 from django.contrib.auth import logout as auth_logout, authenticate
@@ -20,7 +20,6 @@ class Login(View):
                 # TODO: Redirect to company dashboard
                 pass
             elif user.groups.filter(name='Customer').exists():
-                # TODO: Redirect to customer dashboard
-                pass
+                return redirect('/CustomerDashboard')
         else:
             return render(request, 'login_page.html', {'exception': 'Wrong Username Or Password'})

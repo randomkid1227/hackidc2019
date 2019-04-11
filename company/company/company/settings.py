@@ -32,7 +32,10 @@ ALLOWED_HOSTS = ['localhost']
 
 INSTALLED_APPS = [
     'login',
-    'customer_dashboard'
+    'customer_dashboard',
+    'company_session',
+    'company_session_confirmed',
+    'company_create_session',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
