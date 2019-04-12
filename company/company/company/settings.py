@@ -25,7 +25,7 @@ SECRET_KEY = 'h+bs(prl4=_o9^fg9!gc#oidoktpq1&b4z^6u^i1682qe7&k9-'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', '192.168.43.101']
+ALLOWED_HOSTS = ['localhost', '192.168.43.103']
 
 
 # Application definition
@@ -50,11 +50,11 @@ PWA_APP_DESCRIPTION = "Secured Transactions"
 PWA_APP_THEME_COLOR = '#0A0302'
 PWA_APP_BACKGROUND_COLOR = '#ffffff'
 PWA_APP_DISPLAY = 'standalone'
-PWA_APP_START_URL = '/login'
+PWA_APP_START_URL = '/login/'
 PWA_APP_ICONS = [
     {
-        'src': 'logo.png',
-        'sizes': '160x160'
+        'src': 'static/logo.png',
+        'sizes': '250x250'
     }
 ]
 
