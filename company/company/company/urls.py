@@ -27,7 +27,7 @@ urlpatterns = [
     url(r'^CompanySession', include('company_session.urls')),
     url(r'^CreateSession', include('company_create_session.urls')),
     url(r'^ViewSessions', include('view_sessions.urls')),
-    url(r'^ViewRequests', include('view_requests.urls'))
-
+    url(r'^ViewRequests', include('view_requests.urls')),
+    url(r'^$', include('login.urls'))
 
 ]

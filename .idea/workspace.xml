@@ -2,40 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9e63806-a208-4c3e-b7b2-8772a517cd30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/company/company/company_session/companies_description.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/company_session_confirmed/templates/open_session.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/login/static/logo_transparent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/static/facebook_cover_photo_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/static/facebook_cover_photo_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/static/facebook_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/static/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/static/instagram_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/static/linkedin_banner_image_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/static/linkedin_banner_image_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/static/linkedin_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/static/logo_transparent.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/static/pinterest_board_photo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/static/pinterest_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/static/twitter_header_photo_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/static/twitter_header_photo_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/static/twitter_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/static/youtube_profile_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/view_requests/templates/view_requests.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/view_requests/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/view_requests/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/view_sessions/templates/view_sessions.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/view_sessions/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/company/company/company/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/company/company/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/company/company/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/company/company/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/company/company_create_session/templates/code_display.html" beforeDir="false" afterPath="$PROJECT_DIR$/company/company/company_create_session/templates/code_display.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/company/company_session/templates/on_click.html" beforeDir="false" afterPath="$PROJECT_DIR$/company/company/company_session/templates/on_click.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/company/company_session/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/company/company_session/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/company/company_session/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/company/company_session/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/company/company_session_confirmed/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/company/company_session_confirmed/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/company/company_session_confirmed/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/company/company_session_confirmed/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/company/customer_dashboard/templates/entery_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/company/company/customer_dashboard/templates/entery_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/company/login/templates/login_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/company/company/login/templates/login_page.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,29 +22,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
-          <entry key="html" value="38" />
+          <entry key="html" value="39" />
           <entry key="json" value="1" />
-          <entry key="py" value="97" />
+          <entry key="py" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="38" />
+          <entry key="HTML" value="39" />
           <entry key="JSON" value="1" />
-          <entry key="Python" value="97" />
+          <entry key="Python" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1993" />
+          <entry key="html" value="2063" />
           <entry key="json" value="48" />
           <entry key="py" value="2547" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1993" />
+          <entry key="HTML" value="2063" />
           <entry key="JSON" value="48" />
           <entry key="Python" value="2547" />
         </counts>
@@ -95,7 +62,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/company/company/company_session/views.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -103,6 +70,29 @@
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/company/company/company_session_confirmed/templates/open_session.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/company/company/company/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="113">
+              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -163,7 +153,6 @@
         <option value="$PROJECT_DIR$/company/company/view_requests/views.py" />
         <option value="$PROJECT_DIR$/company/company/view_sessions/templates/view_sessions.html" />
         <option value="$PROJECT_DIR$/company/company/view_requests/templates/view_requests.html" />
-        <option value="$PROJECT_DIR$/company/company/company/settings.py" />
         <option value="$PROJECT_DIR$/company/company/login/templates/login_page.html" />
         <option value="$PROJECT_DIR$/company/company/company_session_confirmed/views.py" />
         <option value="$PROJECT_DIR$/company/company/company_session_confirmed/urls.py" />
@@ -173,8 +162,9 @@
         <option value="$PROJECT_DIR$/company/company/company_create_session/templates/code_display.html" />
         <option value="$PROJECT_DIR$/company/company/company_session/templates/on_click.html" />
         <option value="$PROJECT_DIR$/company/company/company/urls.py" />
-        <option value="$PROJECT_DIR$/company/company/company_session_confirmed/templates/open_session.html" />
         <option value="$PROJECT_DIR$/company/company/company_session/views.py" />
+        <option value="$PROJECT_DIR$/company/company/company_session_confirmed/templates/open_session.html" />
+        <option value="$PROJECT_DIR$/company/company/company/settings.py" />
       </list>
     </option>
   </component>
@@ -212,30 +202,7 @@
               <item name="hackidc2019" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="company_session" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hackidc2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hackidc2019" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="company_session" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hackidc2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hackidc2019" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="customer_dashboard" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hackidc2019" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hackidc2019" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="customer_dashboard" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -481,13 +448,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/company/company/company/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/company/company/company_session/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -579,13 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/company/company/company_session_confirmed/templates/open_session.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="52" column="178" selection-start-line="52" selection-start-column="178" selection-end-line="52" selection-end-column="178" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/company/company/company_session_confirmed/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -615,6 +568,25 @@
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/company/company_session_confirmed/templates/open_session.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="65" column="38" selection-start-line="65" selection-start-column="38" selection-end-line="65" selection-end-column="38" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/company/company/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
         </state>
       </provider>
     </entry>
