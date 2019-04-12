@@ -9,36 +9,8 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
-.w3-theme-l5 {color:#000 !important; background-color:#000000 !important}
-.w3-theme-l4 {color:#000 !important; background-color:#dfe5e8 !important}
-.w3-theme-l3 {color:#000 !important; background-color:#becbd2 !important}
-.w3-theme-l2 {color:#000 !important; background-color:#9eb1bb !important}
-.w3-theme-l1 {color:#fff !important; background-color:#e84b60 !important}
-.w3-theme-d1 {color:#fff !important; background-color:#57707d !important}
-.w3-theme-d2 {color:#fff !important; background-color:#000000 !important}
-.w3-theme-d3 {color:#fff !important; background-color:#435761 !important}
-.w3-theme-d4 {color:#fff !important; background-color:#000000 !important}
-.w3-theme-d5 {color:#fff !important; background-color:#303e45 !important}
-
-.w3-theme-light {color:#000 !important; background-color:#f5f7f8 !important}
-.w3-theme-dark {color:#fff !important; background-color:#303e45 !important}
-.w3-theme-action {color:#fff !important; background-color:#303e45 !important}
-
-.w3-theme {color:#fff !important; background-color:#607d8b !important}
-.w3-text-theme {color:#607d8b !important}
-.w3-border-theme {border-color:#607d8b !important}
-
-.w3-hover-theme:hover {color:#fff !important; background-color:#607d8b !important}
-.w3-hover-text-theme:hover {color:#607d8b !important}
-.w3-hover-border-theme:hover {border-color:#607d8b !important}
-
-.MizrahiTefahot{ background-image: url('http://www.bezalel.ac.il/res/artwork/6/6575/6575.jpg')}
-.HOT{ background-image: url('https://campaign.hot.net.il/hisense/newpan_camp/minisite/src/contents/1ee45cf68ed24e59a1c877c3fdc58e55_HOT_color.png')}
-.Pelephone{ background-image: url('https://www.el-mor.co.il/wp-content/uploads/2016/01/customers-logo-pelephone.png')}
-.Partner{ background-image: url('https://upload.wikimedia.org/wikipedia/he/2/24/Partner_logo.svg')}
-
 </style>
-<body class="w3-theme-l5">
+<body style="background-color:black" class="w3-theme-l5">
 
 <!-- Navbar -->
 <div class="w3-top">
@@ -68,21 +40,19 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
 </div>
 
 <!-- Page Container -->
-<div class="w3-container w3-content" style="max-width:1400px;margin-top:80px">
+<div class="w3-container w3-content" style="max-width:1400px;margin-top:50px; margin-left: auto; margin-right: auto">
   <!-- The Grid -->
   <div class="w3-row">
     <!-- Left Column -->
     <div class="w3-col m3">
       <!-- Profile -->
-      <div class="w3-card w3-round w3-white">
-        <div class="w3-container">
-         <h4 class="w3-center">{{ request.user.first_name}}</h4>
+      <div class="w3-card w3-round w3-white" style="max-height:200px;max-width:400px;margin-top:0px">
+        <div class="w3-container" style="margin-left: auto; margin-right: auto">
+
+         <h4 class="w3-center"; name="//TODO"; id="now">Connected with Partner</h4>
          <p class="w3-center"><img src="https://cdn1.iconfinder.com/data/icons/business-users/512/circle-512.png" class="w3-circle" style="height:106px;width:106px" alt="Avatar"></p>
          <hr>
-            <h5>Personal Information</h5>
-         <p><i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> Student</p>
-         <p><i class="fa fa-home fa-fw w3-margin-right w3-text-theme"></i> Israel</p>
-         <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i> March 3, 1993</p>
+         <p style="text-align:center;"><i class="fas fa-clock fa-fw"></i></p>
         </div>
       </div>
       <br>
@@ -90,31 +60,51 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
       <!-- Accordion -->
       <div class="w3-card w3-round">
         <div class="w3-white">
-          <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-circle-o-notch fa-fw w3-margin-right"></i>Pending Request</button>
-          <div id="Demo1" class="w3-hide w3-container">
-            <p>
-                <div class="row">
-                     {% for company in pending_companies %}
-                   <div class="column" style="margin-right:15px">
-                    <a href="/CompanySession/{{company}}/">
-                        <div class="{{company}}" style="float: left; width:20%;  padding: 5px; min-height:80px   ;background-repeat: no-repeat; margin-bottom:10px;background-size: 100%;"></div>
-                    </a>
-                  </div>
-              {% endfor %}
-                </div>
-            </p>
+          <button onclick="myFunction('Demo1', 'now', 'now3')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-circle-o-notch fa-fw w3-margin-right"></i>Pending Offer</button>
+          <div id="Demo1" class="w3-hide w3-container"><br>
+              <label class="form-check-label" ; for="materialUnchecked">Surf and stream with 99% reliability</label><br>
+            <p><!-- Material unchecked -->
+<div class="form-check">
+    <input type="checkbox" class="form-check-input" id="materialUnchecked">
+    <label class="form-check-label" for="materialUnchecked">89.90 NIS per month.</label><br>
+     <input type="checkbox" class="form-check-input" id="1">
+    <label class="form-check-label" for="materialUnchecked">Free Netflix.</label><br>
+       <input type="checkbox" class="form-check-input" id="2">
+    <label class="form-check-label" for="materialUnchecked">First month for free!</label><br>
+                     <input type="checkbox" class="form-check-input" id="3">
+                  <label class="form-check-label" for="materialUnchecked">100 MB</label><br>
+</div></p>
           </div>
-          <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-theme-l1 w3-left-align"><i class="fa fa-calendar-check-o fa-fw w3-margin-right"></i>Select a Company</button>
           <div id="Demo2" class="w3-hide w3-container">
-            <p>
-              <div class="row">
-              {% for company in companies %}
-                   <div class="column" style="margin-right:25px">
-                    <a href="/CompanySession/{{company}}/">
-                        <div class="{{company}}" style="float: left; width:20%;  padding: 5px; min-height:80px   ;background-repeat: no-repeat; margin-bottom:10px;background-size: 100%;"></div>
-                    </a>
-                  </div>
-              {% endfor %}
+            <p><div class="row">
+              <div class="column">
+
+                <a href="on_click.html">
+                <img src="https://pbs.twimg.com/profile_images/699521644684034048/AKopDzYk_400x400.png" style="float: left; width:20%;  padding: 5px;">
+                </a>
+              </div>
+              <div class="column">
+                  <a href="on_click.html">
+                <img src="https://pbs.twimg.com/profile_images/1036849224091136000/1PlMDzaf_400x400.jpg"  style="float: left; width:20%;  padding: 5px;">
+                 </a>
+              </div>
+              <div class="column">
+                <a href="on_click.html">
+                <img src="https://iecdigital.iec.co.il/images/logo-main.png"  style="float: left;width:20%;  padding: 5px;">
+                  </a>
+              </div>
+            <div class="column">
+              <a href="on_click.html">
+                <img src="https://img.wcdn.co.il/f_auto,w_300,t_18/3/9/0/4/390418-46.jpg"  style="float: left;width:20%;  padding: 5px;">
+                </a>
+              </div>
+             <div class="column">
+               <a href="on_click.html">
+                <img src="http://index-call.weebly.com/uploads/2/1/6/1/21617070/__9423435.png"  style="float: left;width:20%;  padding: 5px;">
+                                </a>
+              </div>
+                           <img src="https://nuevasideasweb.es/wp-content/uploads/2017/12/icono-paypal-tarjetas.png" style="width:100%" >
+
             </div></p>
           </div>
           <div id="Demo3" class="w3-hide w3-container">
@@ -136,9 +126,9 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
              <img src="/w3images/nature.jpg" style="width:100%" class="w3-margin-bottom">
            </div>
            <div class="w3-half">
-             <img src="/w3images/snow.jpg" style="width:100%" class="w3-margin-bottom">
            </div>
          </div>
+
           </div>
         </div>
       </div>
@@ -162,15 +152,30 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
 
 <script>
 // Accordion
-function myFunction(id) {
+
+function myFunction(id, id2, id3) {
   var x = document.getElementById(id);
+  var y = document.getElementById(id2);
+  var z = document.getElementById(id3)
   if (x.className.indexOf("w3-show") == -1) {
     x.className += " w3-show";
     x.previousElementSibling.className += " w3-theme-d1";
   } else {
     x.className = x.className.replace("w3-show", "");
+    x.previousElementSibling.className =
     x.previousElementSibling.className.replace(" w3-theme-d1", "");
   }
+    var but11 = "<button type=\"submit\"  style=\"color:white; background-color: #21ba45; width: 140px;    border-radius: 5px; \" class=\"w3-center w3-button \">Accept</button>";
+    var butt2 = "<button type=\"submit\" style=\"color:white; background-color: #db2828; width: 140px;    border-radius: 5px;   margin-left: 60px;\" class=\"w3-center w3-button \">Decline</button>"
+    y.innerHTML = but11 + butt2;
+    z.src = "https://pbs.twimg.com/profile_images/699521644684034048/AKopDzYk_400x400.png";
+
+
+
+
+
+
+
 }
 
 // Used to toggle the menu on smaller screens when clicking on the menu button

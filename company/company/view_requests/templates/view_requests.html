@@ -1,14 +1,6 @@
 <!DOCTYPE html>
 <html>
-{% load pwa %}
 <head>
-  {% load staticfiles %}
-    {% progressive_web_app_meta %}
-        <!-- Enables 'Add to Homescreen' for Android -->
-      <meta name="viewport" content="width=device-width">
-      <meta name="mobile-web-app-capable" content="yes">
-      <link rel="icon" sizes="192x192" href="{% static 'logo.png' %}">
-
   <!-- Standard Meta -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -49,42 +41,56 @@
     }
 
   </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" />
+    <script src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <style>
+        #wrapper{
+                width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: white;
+        }
+    </style>
 </head>
 <body>
-
-<div class="ui middle aligned center aligned grid">
-  <div class="column">
-    <h1 class="ui inverted red image">
-      <img src="https://drive.google.com/uc?id=1Hk-3z1MYnMZw0NnZqaQFehJJrhWs0WWQ&export=download" width="200" height="200"/>
-    </h1>
-    <form class="ui large form" method="post" action="./">
-      {% csrf_token %}
-      <div class="ui stacked segment" style="background-color: black">
-        <div class="field">
-          <div class="ui left icon input">
-            <i class="user icon"></i>
-            <input type="text" name="username" placeholder="Username">
-          </div>
-        </div>
-        <div class="field">
-          <div class="ui left icon input">
-            <i class="lock icon"></i>
-            <input type="password" name="password" placeholder="Password">
-          </div>
-        </div>
-        <button type="submit" style="background-color: #e84b60; border: #000000; !important;" class="ui fluid large button">Login</button>
-      </div>
-
-      <div class="ui error message"></div>
-
-    </form>
-
-    <div class="ui message" style="background-color: #000000; color: #e84b60; size: A5">
-      New to us? <a href="#">Sign Up</a>
+<div id="wrapper" >
+    <div style="margin-bottom: 35px; font-size: 16px; margin-top:15px">
+    <a href="/CreateSession/">Create New Session</a>
+        <a style="float:right"  href="/ViewSessions/">View Sessions</a>
     </div>
-  </div>
-</div>
+                        <table width="100%" class="table table-striped table-bordered table-hover" id="requests-table">
+                                <thead>
+                                    <tr>
+                                        <th>Customer</th>
+                                        <th>time created</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                {% for request in requests %}
+                                    {% if forloop.counter0|divisibleby:2 == 0 %}
+                                        <tr class="even">
+                                    {% else %}
+                                        <tr class="odd">
+                                    {% endif %}
+                                        <td>{{ request.0 }}</td>
+                                        <td>{{ request.1 }}</td>
+                                     </tr>
+                                {% endfor %}
 
+                                </tbody>
+                            </table>
+    </div>
+
+<script>
+    var dataFieldsTable =  $('#requests-table').DataTable({
+            responsive: true,
+        });
+</script>
 </body>
 
 </html>

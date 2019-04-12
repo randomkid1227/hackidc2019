@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Standard Meta -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <!-- Site Properties -->
+  <link rel="stylesheet" type="text/css" href="https://semantic-ui.com/dist/components/reset.css">
+  <link rel="stylesheet" type="text/css" href="https://semantic-ui.com/dist/components/site.css">
+
+  <link rel="stylesheet" type="text/css" href="https://semantic-ui.com/dist/components/container.css">
+  <link rel="stylesheet" type="text/css" href="https://semantic-ui.com/dist/components/grid.css">
+  <link rel="stylesheet" type="text/css" href="https://semantic-ui.com/dist/components/header.css">
+  <link rel="stylesheet" type="text/css" href="https://semantic-ui.com/dist/components/image.css">
+  <link rel="stylesheet" type="text/css" href="https://semantic-ui.com/dist/components/menu.css">
+
+  <link rel="stylesheet" type="text/css" href="https://semantic-ui.com/dist/components/divider.css">
+  <link rel="stylesheet" type="text/css" href="https://semantic-ui.com/dist/components/segment.css">
+  <link rel="stylesheet" type="text/css" href="https://semantic-ui.com/dist/components/form.css">
+  <link rel="stylesheet" type="text/css" href="https://semantic-ui.com/dist/components/input.css">
+  <link rel="stylesheet" type="text/css" href="https://semantic-ui.com/dist/components/button.css">
+  <link rel="stylesheet" type="text/css" href="https://semantic-ui.com/dist/components/list.css">
+  <link rel="stylesheet" type="text/css" href="https://semantic-ui.com/dist/components/message.css">
+  <link rel="stylesheet" type="text/css" href="https://semantic-ui.com/dist/components/icon.css">
+
+
+  <style type="text/css">
+    body {
+      background-color: #000000;
+    }
+    body > .grid {
+      height: 100%;
+    }
+    .image {
+      margin-top: -100px;
+    }
+    .column {
+      max-width: 450px;
+    }
+
+  </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css" />
+    <script src="//cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+    <style>
+        #wrapper{
+                width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: white;
+        }
+    </style>
+</head>
+<body>
+<div id="wrapper" >
+    <div style="margin-bottom: 35px; font-size: 16px; margin-top:15px">
+    <a href="/CreateSession/">Create New Session</a>
+
+        <a style="float:right" href="/ViewRequests/">View Requests</a>
+    </div>
+                        <table width="100%" class="table table-striped table-bordered table-hover" id="sessions-table">
+                                <thead>
+                                    <tr>
+                                        <th>Customer</th>
+                                        <th>time created</th>
+                                        <th>time ends</th>
+                                        <th>status</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                {% for session in sessions %}
+                                    {% if forloop.counter0|divisibleby:2 == 0 %}
+                                        <tr class="even">
+                                    {% else %}
+                                        <tr class="odd">
+                                    {% endif %}
+                                        <td>{{ session.5 }}</td>
+                                        <td>{{ session.3 }}</td>
+                                        <td>{{ session.4 }}</td>
+                                        <td>{{ session.6 }}</td>
+                                     </tr>
+                                {% endfor %}
+
+                                </tbody>
+                            </table>
+    </div>
+
+<script>
+    var dataFieldsTable =  $('#sessions-table').DataTable({
+            responsive: true,
+        });
+</script>
+</body>
+
+</html>

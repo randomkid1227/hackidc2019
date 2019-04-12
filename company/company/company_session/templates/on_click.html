@@ -32,7 +32,7 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
 .w3-hover-text-theme:hover {color:#607d8b !important}
 .w3-hover-border-theme:hover {border-color:#607d8b !important}
 
-.Mizrahi{ background-image: url('http://www.bezalel.ac.il/res/artwork/6/6575/6575.jpg')}
+.MizrahiTefahot{ background-image: url('http://www.bezalel.ac.il/res/artwork/6/6575/6575.jpg')}
 .HOT{ background-image: url('https://campaign.hot.net.il/hisense/newpan_camp/minisite/src/contents/1ee45cf68ed24e59a1c877c3fdc58e55_HOT_color.png')}
 .Pelephone{ background-image: url('https://www.el-mor.co.il/wp-content/uploads/2016/01/customers-logo-pelephone.png')}
 .Partner{ background-image: url('https://upload.wikimedia.org/wikipedia/he/2/24/Partner_logo.svg')}
@@ -72,7 +72,11 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
       <div class="w3-card w3-round w3-white">
         <div class="w3-container">
          <h4 class="w3-center">{% if session_id %} Session request from {%endif%}{{company}}</h4>
-          <p class="w3-center"><div class="{{company}}" style="height:106px;width:106px;background-repeat: no-repeat; margin-bottom:10px;background-size: 90%;"></div></p>
+          <p class="w3-center"><div class="{{company}}" style="height:106px;width:106px;background-repeat: no-repeat; float: left; margin-bottom:10px;background-size: 90%;"></div>
+            <div>{{description|safe}}</div>
+            <br/>
+            <a href="{{url}}" target="_blank">Home Page</a>
+            </p>
          <hr>
         </div>
       </div>
@@ -101,6 +105,20 @@ html, body, h1, h2, h3, h4, h5 {font-family: "Open Sans", sans-serif}
               </form>
             {% endif %}
 
+            {% if session_accepted %}
+                <h4>Session Accepted Successfully</h4>
+            <script>
+                setTimeout("location.href = '/CompanySessionConfirmed/{{company}}/';",2000);
+            </script>
+            {%  endif %}
+
+            {% if session_rejected %}
+            <h4>Session Rejected Successfully</h4>
+            {% endif%}
+
+            {% if call_request %}
+            <h4>A Call Request Was generated Successfully</h4>
+            {% endif%}
 
     <!-- End Left Column -->
     </div>

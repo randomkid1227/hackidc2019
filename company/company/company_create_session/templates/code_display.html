@@ -47,10 +47,16 @@
 <div class="ui middle aligned center aligned grid">
   <div class="column">
     <h1 class="ui inverted red image">
-      <img src="logo_transparent.jpg" class="image" style="width:128px;height:128px;">
+     <img src="https://drive.google.com/uc?id=1Hk-3z1MYnMZw0NnZqaQFehJJrhWs0WWQ&export=download" width="200" height="200"/>
     </h1>
+
+       <div style="margin-bottom: 50px; font-size: 16px; margin-top:15px; color: white">
+    <a href="/ViewRequests/" style="float:left">View Requests</a>
+        <a style="float:right"  href="/ViewSessions/">View Sessions</a>
+    </div>
     {% if ttl %}
         <h1 style="color:white">Session Request Created Successfully</h1>
+          <a href="/ViewSessions/" style="color:white">View Sessions</a>
     {% endif%}
     {% if errorMessage %}
         <h1 style="color:white">Session Request Error</h1>

@@ -21,8 +21,13 @@ urlpatterns = [
     url('', include('pwa.urls')),  # You MUST use an empty string as the URL prefix
     url(r'^admin/', admin.site.urls),
     url(r'^login', include('login.urls')),
+    url(r'^logo.png', include('login.urls')),
     url(r'^CustomerDashboard', include('customer_dashboard.urls')),
-    url(r'^CompanySession', include('company_session.urls')),
     url(r'^CompanySessionConfirmed', include('company_session_confirmed.urls')),
+    url(r'^CompanySession', include('company_session.urls')),
     url(r'^CreateSession', include('company_create_session.urls')),
+    url(r'^ViewSessions', include('view_sessions.urls')),
+    url(r'^ViewRequests', include('view_requests.urls'))
+
+
 ]

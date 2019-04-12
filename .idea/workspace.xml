@@ -2,21 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9e63806-a208-4c3e-b7b2-8772a517cd30" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/company/company/company_create_session/templates/code_display.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/company_session/templates/on_click.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/customer_dashboard/templates/entery_page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/customer_dashboard/templates/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/company/company/static/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/company/company_session/companies_description.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/company/company_session_confirmed/templates/open_session.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/company/login/static/logo_transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/company/static/facebook_cover_photo_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/company/static/facebook_cover_photo_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/company/static/facebook_profile_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/company/static/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/company/static/instagram_profile_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/company/static/linkedin_banner_image_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/company/static/linkedin_banner_image_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/company/static/linkedin_profile_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/company/static/logo_transparent.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/company/static/pinterest_board_photo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/company/static/pinterest_profile_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/company/static/twitter_header_photo_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/company/static/twitter_header_photo_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/company/static/twitter_profile_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/company/static/youtube_profile_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/company/view_requests/templates/view_requests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/company/view_requests/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/company/view_requests/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/company/view_sessions/templates/view_sessions.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/company/company/view_sessions/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/company/company/company/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/company/company/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/company/company/company/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/company/company/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/company/company_create_session/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/company/company_create_session/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/company/company_create_session/templates/code_display.html" beforeDir="false" afterPath="$PROJECT_DIR$/company/company/company_create_session/templates/code_display.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/company/company_session/templates/on_click.html" beforeDir="false" afterPath="$PROJECT_DIR$/company/company/company_session/templates/on_click.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/company/company/company_session/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/company/company_session/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/company/company/company_session/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/company/company_session/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/company/customer_dashboard/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/company/customer_dashboard/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/company/company_session_confirmed/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/company/company_session_confirmed/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/company/company_session_confirmed/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/company/company_session_confirmed/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/company/company/customer_dashboard/templates/entery_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/company/company/customer_dashboard/templates/entery_page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/company/company/login/templates/login_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/company/company/login/templates/login_page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/company/login/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/company/company/login/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/company/company/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/company/company/manifest.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,31 +55,31 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
-          <entry key="html" value="12" />
+          <entry key="html" value="38" />
           <entry key="json" value="1" />
-          <entry key="py" value="68" />
+          <entry key="py" value="97" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="HTML" value="12" />
+          <entry key="HTML" value="38" />
           <entry key="JSON" value="1" />
-          <entry key="Python" value="68" />
+          <entry key="Python" value="97" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="998" />
+          <entry key="html" value="1993" />
           <entry key="json" value="48" />
-          <entry key="py" value="1882" />
+          <entry key="py" value="2547" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="998" />
+          <entry key="HTML" value="1993" />
           <entry key="JSON" value="48" />
-          <entry key="Python" value="1882" />
+          <entry key="Python" value="2547" />
         </counts>
       </usages-collector>
     </session>
@@ -68,10 +87,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/company/company/company_session_confirmed/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/company/company/company_session/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+            <state relative-caret-position="153">
+              <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -82,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/company/company/company_session/templates/on_click.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="89" column="39" selection-start-line="89" selection-start-column="39" selection-end-line="89" selection-end-column="39" />
+            <state relative-caret-position="453">
+              <caret line="108" column="54" lean-forward="true" selection-start-line="108" selection-start-column="54" selection-end-line="108" selection-end-column="54" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -96,62 +124,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/auth.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/company/company/manifest.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/company/company/company/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="135" column="15" lean-forward="true" selection-start-line="135" selection-start-column="15" selection-end-line="135" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/company/company/company/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="41" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="41" />
-              <folding>
-                <element signature="e#640#672#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/company/company/login/templates/login_page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -174,21 +152,29 @@
         <option value="$PROJECT_DIR$/client/client/client/settings.py" />
         <option value="$PROJECT_DIR$/company/company/login/urls.py" />
         <option value="$PROJECT_DIR$/company/company/customer_dashboard/urls.py" />
-        <option value="$PROJECT_DIR$/company/company/company_session_confirmed/urls.py" />
-        <option value="$PROJECT_DIR$/company/company/company_session_confirmed/views.py" />
         <option value="$PROJECT_DIR$/company/company/company_create_session/urls.py" />
         <option value="$PROJECT_DIR$/company/company/customer_dashboard/views.py" />
-        <option value="$PROJECT_DIR$/company/company/company_session/urls.py" />
-        <option value="$PROJECT_DIR$/company/company/customer_dashboard/templates/entery_page.html" />
         <option value="$PROJECT_DIR$/company/company/login/views.py" />
         <option value="$PROJECT_DIR$/company/company/company_create_session/views.py" />
-        <option value="$PROJECT_DIR$/company/company/company_create_session/templates/code_display.html" />
-        <option value="$PROJECT_DIR$/company/company/company_session/views.py" />
-        <option value="$PROJECT_DIR$/company/company/company_session/templates/on_click.html" />
-        <option value="$PROJECT_DIR$/company/company/login/templates/login_page.html" />
         <option value="$PROJECT_DIR$/company/company/manifest.json" />
+        <option value="$PROJECT_DIR$/company/company/view_sessions/urls.py" />
+        <option value="$PROJECT_DIR$/company/company/view_sessions/views.py" />
+        <option value="$PROJECT_DIR$/company/company/view_requests/urls.py" />
+        <option value="$PROJECT_DIR$/company/company/view_requests/views.py" />
+        <option value="$PROJECT_DIR$/company/company/view_sessions/templates/view_sessions.html" />
+        <option value="$PROJECT_DIR$/company/company/view_requests/templates/view_requests.html" />
         <option value="$PROJECT_DIR$/company/company/company/settings.py" />
+        <option value="$PROJECT_DIR$/company/company/login/templates/login_page.html" />
+        <option value="$PROJECT_DIR$/company/company/company_session_confirmed/views.py" />
+        <option value="$PROJECT_DIR$/company/company/company_session_confirmed/urls.py" />
+        <option value="$PROJECT_DIR$/company/company/company_session/urls.py" />
+        <option value="$PROJECT_DIR$/company/company/company_session/companies_description.py" />
+        <option value="$PROJECT_DIR$/company/company/customer_dashboard/templates/entery_page.html" />
+        <option value="$PROJECT_DIR$/company/company/company_create_session/templates/code_display.html" />
+        <option value="$PROJECT_DIR$/company/company/company_session/templates/on_click.html" />
         <option value="$PROJECT_DIR$/company/company/company/urls.py" />
+        <option value="$PROJECT_DIR$/company/company/company_session_confirmed/templates/open_session.html" />
+        <option value="$PROJECT_DIR$/company/company/company_session/views.py" />
       </list>
     </option>
   </component>
@@ -226,20 +212,39 @@
               <item name="hackidc2019" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="company_session" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hackidc2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="hackidc2019" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="company_session" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackidc2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackidc2019" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="customer_dashboard" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hackidc2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hackidc2019" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="customer_dashboard" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
     </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -248,11 +253,11 @@
       <recent name="C:\Users\Meidar\Desktop\HackIDC\hackidc2019\company\company\login" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Meidar\Desktop\HackIDC\hackidc2019\company\company\company_session_confirmed\templates" />
+      <recent name="C:\Users\Meidar\Desktop\HackIDC\hackidc2019\company\company\login\static" />
       <recent name="C:\Users\Meidar\Desktop\HackIDC\hackidc2019\company\company\static" />
-      <recent name="C:\Users\Meidar\Desktop\HackIDC\hackidc2019\company\company\company\static" />
-      <recent name="C:\Users\Meidar\Desktop\HackIDC\hackidc2019\company\company\company" />
-      <recent name="C:\Users\Meidar\Desktop\HackIDC\hackidc2019\company\company\login" />
-      <recent name="C:\Users\Meidar\Desktop\HackIDC\hackidc2019\company\company\company_create_session\templates" />
+      <recent name="C:\Users\Meidar\Desktop\HackIDC\hackidc2019\company\company\view_requests" />
+      <recent name="C:\Users\Meidar\Desktop\HackIDC\hackidc2019\company\company\view_sessions" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -284,7 +289,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17118308" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1870456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -343,13 +348,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/company/company/company_session_confirmed/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/company/company/company_create_session/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -364,62 +362,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/company/company/customer_dashboard/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="32" column="49" lean-forward="true" selection-start-line="32" selection-start-column="15" selection-end-line="32" selection-end-column="49" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/company/company_session/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/company/company_session_confirmed/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="11" column="83" selection-start-line="11" selection-start-column="83" selection-end-line="11" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/company/customer_dashboard/templates/entery_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="98" column="185" selection-start-line="98" selection-start-column="114" selection-end-line="98" selection-end-column="185" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/company/company/login/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="48" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
           <folding>
             <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/company/company_create_session/templates/code_display.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="52" column="31" selection-start-line="52" selection-start-column="31" selection-end-line="52" selection-end-column="31" />
-          <folding>
-            <element signature="n#style#0;n#h1#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#p#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -434,55 +382,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/company/company/company_session/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/company/company_session/templates/on_click.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="89" column="39" selection-start-line="89" selection-start-column="39" selection-end-line="89" selection-end-column="39" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#0;n#form#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/company/company/login/templates/login_page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/company/company/login/apps.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/company/company/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -496,19 +402,218 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/company/customer_dashboard/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="24" lean-forward="true" selection-start-line="14" selection-end-line="24" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/company/view_sessions/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/company/view_sessions/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="56" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/company/view_requests/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/company/view_requests/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/company/view_sessions/templates/view_sessions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="64" column="11" selection-start-line="64" selection-start-column="11" selection-end-line="64" selection-end-column="31" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/company/view_requests/templates/view_requests.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="64" column="10" selection-start-line="61" selection-start-column="3" selection-end-line="64" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/company/company/company/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="135" column="15" lean-forward="true" selection-start-line="135" selection-start-column="15" selection-end-line="135" selection-end-column="15" />
+        <state relative-caret-position="232">
+          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/company/company_session/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/company/company_session/companies_description.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/privacsys-internal/AccountPurposesManagement/templates/account_purposes_management.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5610" />
+      </provider>
+    </entry>
+    <entry file="file://C:/privacsys-internal/AdminPrivacyPolicy/templates/admin_add_privacy_policy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="110" column="12" selection-start-line="110" selection-start-column="12" selection-end-line="110" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/privacsys-internal/AdminPrivacyPolicy/templates/admin_update_privacy_policy.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="116" column="77" lean-forward="true" selection-start-line="116" selection-start-column="23" selection-end-line="116" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/company/company_session_confirmed/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="23" lean-forward="true" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/company/login/templates/login_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="57" column="124" lean-forward="true" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/company/company_create_session/templates/code_display.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="49" column="123" selection-start-line="49" selection-start-column="123" selection-end-line="49" selection-end-column="123" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#2;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/company/company/company/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="41" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="41" />
+        <state relative-caret-position="442">
+          <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
           <folding>
             <element signature="e#640#672#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/company/customer_dashboard/templates/entery_page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="436">
+          <caret line="79" column="30" lean-forward="true" selection-start-line="79" selection-start-column="30" selection-end-line="79" selection-end-column="178" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/company/company_session_confirmed/templates/open_session.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="52" column="178" selection-start-line="52" selection-start-column="178" selection-end-line="52" selection-end-column="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/company/company_session_confirmed/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/company/company_session/templates/on_click.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="108" column="54" lean-forward="true" selection-start-line="108" selection-start-column="54" selection-end-line="108" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#form#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#form#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/company/company/company_session/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="44" column="31" selection-start-line="44" selection-start-column="31" selection-end-line="44" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -9,5 +9,5 @@ class SessionConfirmed(View):
         if not request.user.is_authenticated():
             return redirect('/Login/')
 
-        return render(request, 'company_session_confirmed.html', {'company':company})
+        return render(request, 'open_session.html', {'company':company})
 

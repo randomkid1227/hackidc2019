@@ -4,5 +4,6 @@ from django.contrib.auth import views as auth_views
 from .views import *
 
 urlpatterns = [
-    url(r'/(?P<company>[\w|-|_|\s|.]+)', SessionConfirmed.as_view()),
+    url(r'', ViewRequests.as_view()),
+
 ]
